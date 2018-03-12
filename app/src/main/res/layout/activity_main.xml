@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ximena.agenda.MainActivity">
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="498dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="6dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGENDA"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="24dp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:inputType="none"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="147dp" />
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="138dp"
+            android:layout_height="48dp"
+            android:onClick="agregar"
+            android:text="Agregar"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="256dp" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="138dp"
+            android:layout_height="48dp"
+            android:onClick="buscar"
+            android:text="Buscar"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="319dp" />
+
+        <Button
+            android:id="@+id/e"
+            android:layout_width="138dp"
+            android:layout_height="48dp"
+            android:onClick="eliminar"
+            android:text="Eliminar"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="390dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
